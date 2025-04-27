@@ -1,0 +1,153 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: white;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 50px;
+  background-color:white;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  background-color: white
+}
+
+/* .logo span {
+  font-weight: 700;
+  font-size: 20px;
+  color: #0f172a;
+  object-fit: contain;
+} */
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #0f172a;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.buttons .login {
+  color: #22c55e;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.buttons .signup {
+  text-decoration: none;
+  background-color: #22c55e;
+  color: white;
+  padding: 8px 18px;
+  border-radius: 6px;
+  font-weight: 500;
+  font-size: 14px;
+}
+/* .signup a:hover{
+    background-color: white;
+    color: black;
+    border: #22c55e;
+} */
+.main{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+    background-color: white
+}
+.header{
+    font-family: sans-serif;
+    margin: 40px;
+    padding: 50px;
+}
+img{
+    padding-right: 30px;
+}
+.ht1{
+    font-size: 40px;
+    font-weight: bold;
+}
+.ht2{
+    color: #22c55e;
+    font-size: 40px;
+    padding-bottom: 20px;
+    font-weight: bold;
+}
+.ht{
+    font-size: 15px;
+}
+button{
+    background-color: #22c55e;
+    color: white;
+    border-radius: 4px;
+    border: #22c55e;
+    margin-top:20px ;
+    width: 100px;
+    height: 40px;
+}
+button:hover{
+    background-color: white;
+    color: black;
+    border: 10px #22c55e;
+}
+.client{
+    display: flex;
+   justify-content: center;
+   margin-bottom: 15px;
+}
+.clients{
+    display: flex;
+   justify-content: center;
+} 
+.logos{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+    gap: 60px;
+}
+.community{
+    display: flex;
+   justify-content: center;
+   margin-top: 60px;
+}
+.communitys{
+    display: flex;
+    justify-content: center;
+}
+.commu{
+    display: flex;
+   justify-content: center;
+   margin-bottom: 15px;
+   color: #2a2b2a;
+}
+.shortcrads{
+    display: flex;
+    justify-content: space-around;
+}
+.cardsshort{
+    display: flex;
+   justify-content: space-around;
+}
